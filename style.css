@@ -1,0 +1,817 @@
+:root {
+    --primary-color: #00b4d8;
+    --dark-bg: #1a1a1a;
+    --text-light: #ffffff;
+    --text-dark: #333333;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: var(--dark-bg);
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 4rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.logo {
+    position: absolute;
+    left: 4rem;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.navbar a {
+    color: var(--text-light);
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.navbar a:hover {
+    color: var(--primary-color);
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;  /* 改为纵向布局 */
+    align-items: center;
+    padding: 4rem;
+    gap: 4rem;
+    max-width: 1200px;  /* 限制最大宽度 */
+    margin: 0 auto;  /* 居中显示 */
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.profile-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.profile-image {
+    width: 200px;  /* 稍微缩小头像 */
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: var(--primary-color);
+    position: relative;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.about-content {
+    width: 100%;
+    max-width: 1000px;  /* 增加内容区域宽度 */
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;  /* 增加内边距 */
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.intro {
+    font-size: 1.2rem;
+    margin: 2rem auto;
+    color: #cccccc;
+    line-height: 2;  /* 增加行高提高可读性 */
+    text-align: left;
+    padding: 0 2rem;  /* 增加左右内边距 */
+    white-space: pre-line;  /* 保留换行符 */
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* 优化 intro-content 内元素的样式 */
+.intro-content p {
+    margin-bottom: 1.5rem; /* 段落间距 */
+    text-align: left; /* 保持左对齐 */
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.intro-content h3 {
+    font-size: 1.8rem; /* 标题字号 */
+    margin-top: 2.5rem; /* 标题上边距 */
+    margin-bottom: 1.5rem; /* 标题下边距 */
+    color: var(--primary-color); /* 标题颜色 */
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* 标题下划线 */
+    padding-bottom: 0.5rem;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.intro-content ol, .intro-content ul {
+    margin-left: 2rem; /* 列表缩进 */
+    margin-bottom: 1.5rem; /* 列表下边距 */
+    text-align: left;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.intro-content li {
+    margin-bottom: 1rem; /* 列表项间距 */
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.intro-content ul li {
+    list-style-type: disc; /* 无序列表样式 */
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.intro-content ol li {
+    list-style-type: decimal; /* 有序列表样式 */
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.intro-content strong {
+    color: var(--primary-color); /* 强调文本颜色 */
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.intro-content em {
+    font-style: italic; /* 斜体 */
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.intro-content a {
+    color: var(--primary-color);
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.intro-content a:hover {
+    color: #ade8f4; /* 链接悬停颜色 */
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* (旧的 .intro p 样式已被移除或整合到 .intro-content p 中) */
+
+.rock-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.intro {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #cccccc;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.skills {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.skill-tag {
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.download-cv {
+    padding: 1rem 2rem;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 25px;
+    color: var(--text-light);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.download-cv:hover {
+    transform: translateY(-2px);
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 1rem 2rem;
+    }
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+    .hero-section {
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+    }
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+    .profile-image {
+        width: 200px;
+        height: 200px;
+    }
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+    h1 {
+        font-size: 2rem;
+    }
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00b4d8 0%, #ade8f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+}
+
+/* 星图容器样式 */
+.star-photo {
+    width: 80%;
+    margin: 2rem auto;
+    position: relative;
+}
+
+.star-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 180, 216, 0.3);
+}
+
+@media (max-width: 768px) {
+    .star-photo {
+        width: 95%;
+        margin: 1.5rem auto;
+    }
+}
